@@ -34,8 +34,6 @@ Para garantir que o código corre perfeitamente no seu computador ou no ambiente
 
 ### Passo 1: Obter o código
 Clone este repositório para a sua máquina local ou faça o download do ficheiro ZIP e extraia os ficheiros.
-git clone https://github.com/SEU_USUARIO/wine-quality-classification.git
-cd wine-quality-classification
 
 ### Passo 2: Criar um Ambiente Virtual (Recomendado)
 Para evitar conflitos de versão com outras bibliotecas da sua máquina, crie e ative um ambiente virtual:
