@@ -12,15 +12,15 @@ Este projeto visa resolver esse problema de negócio através do desenvolvimento
 O projeto está organizado de forma modular, separando as fases de análise, processamento e modelagem:
 
 wine-quality-classification/
-├── data/                  # Base de dados original (WineQT.csv) e dados processados
-├── notebooks/             # Notebook interativo com Análise Exploratória (EDA) e Storytelling
-│   └── analise_e_modelagem.ipynb
-├── src/                   # Scripts auxiliares Python para automação do pipeline
-│   ├── preprocessamento.py
-│   └── modelagem.py
-├── results/               # Gráficos, matrizes de confusão e métricas exportadas
-├── requirements.txt       # Bibliotecas e dependências do projeto
-└── README.md              # Documentação principal
+- data/                  _# Base de dados original (WineQT.csv) e dados processados_
+- notebooks/             _# Notebook interativo com Análise Exploratória (EDA) e Storytelling_
+  - analise_e_modelagem.ipynb
+- src/                   _# Scripts auxiliares Python para automação do pipeline_
+  - wine_processing.py
+  - wine_modeling.py
+- results/               _# Gráficos, matrizes de confusão e métricas exportadas_
+  - requirements.txt       _# Bibliotecas e dependências do projeto_
+- README.md              _# Documentação principal_
 
 ---
 
@@ -72,6 +72,4 @@ python src/wine_modeling.py
 
 ---
 Autores:
-* [O Seu Nome / Nome do Integrante 1] 
-* [Nome do Integrante 2 - se houver]
-* Alunos da POSTECH DTAT
+* Athos Phelipe dos Santos
